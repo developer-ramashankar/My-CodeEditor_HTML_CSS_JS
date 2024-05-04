@@ -9,8 +9,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Routers>
       <Provider store={store}>
-
-      <App />
+        <App />
       </Provider>
     </Routers>
   </React.StrictMode>
