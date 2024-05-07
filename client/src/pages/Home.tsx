@@ -1,11 +1,11 @@
-import Header from "@/components/Header"
-
+import Header from "../components/Header"
+import Homepage from "../components/Home"
  
 const Home = () => {
   return (
     <>
     <Header/>
-    Home
+    <Homepage/>
     </>
   )
 }
