@@ -8,9 +8,9 @@ const Home = () => {
    <>
    <div className="bg-gray-100  h-[calc(100dvh-60px)]">
       <header className="bg-gray-800 text-white py-10  text-center">
-        <h1 className="text-4xl font-bold">Welcome to My Compiler</h1>
+        <h1 className="text-4xl font-bold">Welcome to RD Compiler</h1>
         <p className="mt-4">A powerful tool to compile your code</p>
-        <Link to="/complier"><Button className="m-3" variant={"success"}>Compiler Now </Button></Link>
+        <Link to="/compiler"><Button className="m-3" variant={"success"}>Compiler Now </Button></Link>
       </header>
       <section className="container text-black mx-auto mt-8 px-4">
         <h2 className="text-2xl font-bold mb-4">Features</h2>

@@ -9,7 +9,7 @@ const Header = () => {
         <Link to="/"><h2 className=" font-bold select-none">RB Complier</h2></Link> 
        <ul className="flex gap-2">
           <li>
-            <Link to="/complier"><Button variant="secondary">Compiler</Button></Link>
+            <Link to="/compiler"><Button variant="secondary">Compiler</Button></Link>
           </li>
        </ul>
     </nav>
